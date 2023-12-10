@@ -9,6 +9,7 @@ const port = 4200;
 app.use(express.static(__dirname + '/dist/cds-front'));
 
 app.get('/', (req, res) => res.sendFile(path.resolve('dist/cds-front/index.html')));
+app.get('*', (req, res) => res.sendFile(path.resolve('dist/cds-front/index.html')));
 
 const server = http.createServer(app);
 
