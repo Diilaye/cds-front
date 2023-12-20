@@ -295,6 +295,9 @@ Apache-2.0
    limitations under the License.
 
 
+ngx-pagination
+MIT
+
 ngx-toastr
 MIT
 The MIT License (MIT)
